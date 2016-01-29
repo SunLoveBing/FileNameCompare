@@ -1,0 +1,9 @@
+clear all;
+close all;
+clc;
+
+TarPath = '';
+[TarFileName,TarFileNum] = TargetFile(TarPath);
+SrcPath = '';
+[SrcFileName,SrcFileNum] = SourceFile(SrcPath);
+destination = '';
